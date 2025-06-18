@@ -1,0 +1,857 @@
+title: Spiral Knights Weapon Pack
+originalAuthor: wavingfuture
+description: Fight with a collection of swords from Spiral Knights!
+game: kh2
+dependencies: 
+assets:
+- name: dll/KH2Moose.dll
+  method: copy
+  platform: pc
+  source:
+  - name: KH2Moose.dll
+- name: dll/KH2Moose.ini
+  method: copy
+  platform: pc
+  source:
+  - name: KH2Moose.ini
+# Kingdom Key
+- name: obj/W_EX010.mdlx
+  multi:
+  - name: obj/W_EX010_NM.mdlx
+  - name: obj/W_EX010_TR.mdlx
+  - name: obj/W_EX010_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Proto.mdlx
+- name: remastered/obj/W_EX010.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Proto.dds
+# Oathkeeper
+- name: obj/W_EX010_10.mdlx
+  multi:
+  - name: obj/W_EX010_10_NM.mdlx
+  - name: obj/W_EX010_10_TR.mdlx
+  - name: obj/W_EX010_10_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Honor.mdlx
+- name: remastered/obj/W_EX010_10.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_10_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_10_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_10_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Honor.dds
+# Oblivion
+- name: obj/W_EX010_20.mdlx
+  multi:
+  - name: obj/W_EX010_20_NM.mdlx
+  - name: obj/W_EX010_20_TR.mdlx
+  - name: obj/W_EX010_20_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Katana3.mdlx
+- name: remastered/obj/W_EX010_20.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_20_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_20_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_20_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Shadow.dds
+# Star Seeker
+- name: obj/W_EX010_30.mdlx
+  multi:
+  - name: obj/W_EX010_30_NM.mdlx
+  - name: obj/W_EX010_30_TR.mdlx
+  - name: obj/W_EX010_30_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Spur.mdlx
+- name: remastered/obj/W_EX010_30.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_30_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_30_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_30_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Spur.dds
+# Hidden Dragon
+- name: obj/W_EX010_40.mdlx
+  multi:
+  - name: obj/W_EX010_40_NM.mdlx
+  - name: obj/W_EX010_40_TR.mdlx
+  - name: obj/W_EX010_40_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Saber.mdlx
+- name: remastered/obj/W_EX010_40.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_40_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_40_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_40_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Saber.dds
+# Heros Crest
+- name: obj/W_EX010_50.mdlx
+  multi:
+  - name: obj/W_EX010_50_NM.mdlx
+  - name: obj/W_EX010_50_TR.mdlx
+  - name: obj/W_EX010_50_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Calibur.mdlx
+- name: remastered/obj/W_EX010_50.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_50_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_50_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_50_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Calibur2.dds
+# Monochrome
+- name: obj/W_EX010_60.mdlx
+  multi:
+  - name: obj/W_EX010_60_NM.mdlx
+  - name: obj/W_EX010_60_TR.mdlx
+  - name: obj/W_EX010_60_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Wrench.mdlx
+- name: remastered/obj/W_EX010_60.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_60_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_60_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_60_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Wrench2.dds
+# Follow The Wind
+- name: obj/W_EX010_70.mdlx
+  multi:
+  - name: obj/W_EX010_70_NM.mdlx
+  - name: obj/W_EX010_70_TR.mdlx
+  - name: obj/W_EX010_70_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Flourish2.mdlx
+- name: remastered/obj/W_EX010_70.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_70_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_70_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_70_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Flourish2.dds
+# Circle Of Life
+- name: obj/W_EX010_80.mdlx
+  multi:
+  - name: obj/W_EX010_80_NM.mdlx
+  - name: obj/W_EX010_80_TR.mdlx
+  - name: obj/W_EX010_80_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Flourish.mdlx
+- name: remastered/obj/W_EX010_80.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_80_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_80_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_80_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Barb.dds
+# Photon Debugger
+- name: obj/W_EX010_90.mdlx
+  multi:
+  - name: obj/W_EX010_90_NM.mdlx
+  - name: obj/W_EX010_90_TR.mdlx
+  - name: obj/W_EX010_90_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Proto.mdlx
+- name: remastered/obj/W_EX010_90.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_90_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_90_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_90_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Protoshock.dds
+# Gullwing
+- name: obj/W_EX010_A0.mdlx
+  multi:
+  - name: obj/W_EX010_A0_NM.mdlx
+  - name: obj/W_EX010_A0_TR.mdlx
+  - name: obj/W_EX010_A0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Brandish.mdlx
+- name: remastered/obj/W_EX010_A0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_A0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_A0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_A0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Brandish.dds
+# Rumbling Rose
+- name: obj/W_EX010_B0.mdlx
+  multi:
+  - name: obj/W_EX010_B0_NM.mdlx
+  - name: obj/W_EX010_B0_TR.mdlx
+  - name: obj/W_EX010_B0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Cutter.mdlx
+- name: remastered/obj/W_EX010_B0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_B0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_B0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_B0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Venom2.dds
+# Guardian Soul
+- name: obj/W_EX010_C0.mdlx
+  multi:
+  - name: obj/W_EX010_C0_NM.mdlx
+  - name: obj/W_EX010_C0_TR.mdlx
+  - name: obj/W_EX010_C0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Cautery2.mdlx
+- name: remastered/obj/W_EX010_C0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_C0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_C0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_C0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Cautery3.dds
+# Wishing Lamp
+- name: obj/W_EX010_D0.mdlx
+  multi:
+  - name: obj/W_EX010_D0_NM.mdlx
+  - name: obj/W_EX010_D0_TR.mdlx
+  - name: obj/W_EX010_D0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Flourish3.mdlx
+- name: remastered/obj/W_EX010_D0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_D0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_D0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_D0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/FlourishStun.dds
+# Decisive Pumpkin
+- name: obj/W_EX010_E0.mdlx
+  multi:
+  - name: obj/W_EX010_E0_NM.mdlx
+  - name: obj/W_EX010_E0_TR.mdlx
+  - name: obj/W_EX010_E0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Flourish3.mdlx
+- name: remastered/obj/W_EX010_E0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_E0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_E0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_E0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Barb3.dds
+# Sleeping Lion
+- name: obj/W_EX010_F0.mdlx
+  multi:
+  - name: obj/W_EX010_F0_NM.mdlx
+  - name: obj/W_EX010_F0_TR.mdlx
+  - name: obj/W_EX010_F0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Leviathan.mdlx
+- name: remastered/obj/W_EX010_F0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_F0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_F0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_F0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Leviathan.dds
+# Sweet Memories
+- name: obj/W_EX010_G0.mdlx
+  multi:
+  - name: obj/W_EX010_G0_NM.mdlx
+  - name: obj/W_EX010_G0_TR.mdlx
+  - name: obj/W_EX010_G0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Shovel.mdlx
+- name: remastered/obj/W_EX010_G0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_G0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_G0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_G0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Shovel.dds
+# Mysterious Abyss
+- name: obj/W_EX010_H0.mdlx
+  multi:
+  - name: obj/W_EX010_H0_NM.mdlx
+  - name: obj/W_EX010_H0_TR.mdlx
+  - name: obj/W_EX010_H0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Brandish2.mdlx
+- name: remastered/obj/W_EX010_H0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_H0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_H0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_H0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Ice2.dds
+# Fatal Crest
+- name: obj/W_EX010_J0.mdlx
+  multi:
+  - name: obj/W_EX010_J0_NM.mdlx
+  - name: obj/W_EX010_J0_TR.mdlx
+  - name: obj/W_EX010_J0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Vanquisher.mdlx
+- name: remastered/obj/W_EX010_J0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_J0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_J0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_J0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Vanquisher.dds
+# Bond Of Flame
+- name: obj/W_EX010_K0.mdlx
+  multi:
+  - name: obj/W_EX010_K0_NM.mdlx
+  - name: obj/W_EX010_K0_TR.mdlx
+  - name: obj/W_EX010_K0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Brandish3.mdlx
+- name: remastered/obj/W_EX010_K0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_K0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_K0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_K0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Fire3.dds
+# Fenrir
+- name: obj/W_EX010_M0.mdlx
+  multi:
+  - name: obj/W_EX010_M0_NM.mdlx
+  - name: obj/W_EX010_M0_TR.mdlx
+  - name: obj/W_EX010_M0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Troika2.mdlx
+- name: remastered/obj/W_EX010_M0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_M0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_M0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_M0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/TroikaF4.dds
+# Ultima Weapon
+- name: obj/W_EX010_N0.mdlx
+  multi:
+  - name: obj/W_EX010_N0_NM.mdlx
+  - name: obj/W_EX010_N0_TR.mdlx
+  - name: obj/W_EX010_N0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Sealed2.mdlx
+- name: remastered/obj/W_EX010_N0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_N0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_N0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_N0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Avenger.dds
+# Two Become One
+- name: obj/W_EX010_P0.mdlx
+  multi:
+  - name: obj/W_EX010_P0_NM.mdlx
+  - name: obj/W_EX010_P0_TR.mdlx
+  - name: obj/W_EX010_P0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Sealed.mdlx
+- name: remastered/obj/W_EX010_P0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_P0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_P0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_P0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/SealedF.dds
+# Winners Proof
+- name: obj/W_EX010_R0.mdlx
+  multi:
+  - name: obj/W_EX010_R0_NM.mdlx
+  - name: obj/W_EX010_R0_TR.mdlx
+  - name: obj/W_EX010_R0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Scissors.mdlx
+- name: remastered/obj/W_EX010_R0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_R0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_R0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_R0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Scissors.dds
+# GoA Weapons
+# Kingdom Key D
+- name: obj/W_EX010_00.mdlx
+  multi:
+  - name: obj/W_EX010_00_NM.mdlx
+  - name: obj/W_EX010_00_TR.mdlx
+  - name: obj/W_EX010_00_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Proto.mdlx
+- name: remastered/obj/W_EX010_00.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_00_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_00_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_00_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Proto2.dds
+# Pureblood
+- name: obj/W_EX010_X0.mdlx
+  multi:
+  - name: obj/W_EX010_X0_NM.mdlx
+  - name: obj/W_EX010_X0_TR.mdlx
+  - name: obj/W_EX010_X0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Cutlass.mdlx
+- name: remastered/obj/W_EX010_X0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_X0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_X0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_X0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Cutlass.dds
+# Alpha Weapon
+- name: obj/W_EX010_Y0.mdlx
+  multi:
+  - name: obj/W_EX010_Y0_NM.mdlx
+  - name: obj/W_EX010_Y0_TR.mdlx
+  - name: obj/W_EX010_Y0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Troika.mdlx
+- name: remastered/obj/W_EX010_Y0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_Y0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_Y0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_Y0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/TroikaF3.dds
+# Omega Weapon
+- name: obj/W_EX010_Z0.mdlx
+  multi:
+  - name: obj/W_EX010_Z0_NM.mdlx
+  - name: obj/W_EX010_Z0_TR.mdlx
+  - name: obj/W_EX010_Z0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Sealed2.mdlx
+- name: remastered/obj/W_EX010_Z0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_Z0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_Z0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_Z0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Faust.dds
+#Collision Fix
+- name: obj/W_EX010.mdlx
+  multi:
+  - name: obj/W_EX010_NM.mdlx
+  - name: obj/W_EX010_TR.mdlx
+  - name: obj/W_EX010_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_00.mdlx
+  multi:
+  - name: obj/W_EX010_00_NM.mdlx
+  - name: obj/W_EX010_00_TR.mdlx
+  - name: obj/W_EX010_00_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_00/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_10.mdlx
+  multi:
+  - name: obj/W_EX010_10_NM.mdlx
+  - name: obj/W_EX010_10_TR.mdlx
+  - name: obj/W_EX010_10_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_10/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_20.mdlx
+  multi:
+  - name: obj/W_EX010_20_NM.mdlx
+  - name: obj/W_EX010_20_TR.mdlx
+  - name: obj/W_EX010_20_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_20/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_30.mdlx
+  multi:
+  - name: obj/W_EX010_30_NM.mdlx
+  - name: obj/W_EX010_30_TR.mdlx
+  - name: obj/W_EX010_30_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_30/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_40.mdlx
+  multi:
+  - name: obj/W_EX010_40_NM.mdlx
+  - name: obj/W_EX010_40_TR.mdlx
+  - name: obj/W_EX010_40_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_40/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_50.mdlx
+  multi:
+  - name: obj/W_EX010_50_NM.mdlx
+  - name: obj/W_EX010_50_TR.mdlx
+  - name: obj/W_EX010_50_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_50/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_60.mdlx
+  multi:
+  - name: obj/W_EX010_60_NM.mdlx
+  - name: obj/W_EX010_60_TR.mdlx
+  - name: obj/W_EX010_60_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_60/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_70.mdlx
+  multi:
+  - name: obj/W_EX010_70_NM.mdlx
+  - name: obj/W_EX010_70_TR.mdlx
+  - name: obj/W_EX010_70_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_70/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_80.mdlx
+  multi:
+  - name: obj/W_EX010_80_NM.mdlx
+  - name: obj/W_EX010_80_TR.mdlx
+  - name: obj/W_EX010_80_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_80/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_90.mdlx
+  multi:
+  - name: obj/W_EX010_90_NM.mdlx
+  - name: obj/W_EX010_90_TR.mdlx
+  - name: obj/W_EX010_90_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_90/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_A0.mdlx
+  multi:
+  - name: obj/W_EX010_A0_NM.mdlx
+  - name: obj/W_EX010_A0_TR.mdlx
+  - name: obj/W_EX010_A0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_A0/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_B0.mdlx
+  multi:
+  - name: obj/W_EX010_B0_NM.mdlx
+  - name: obj/W_EX010_B0_TR.mdlx
+  - name: obj/W_EX010_B0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_B0/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_C0.mdlx
+  multi:
+  - name: obj/W_EX010_C0_NM.mdlx
+  - name: obj/W_EX010_C0_TR.mdlx
+  - name: obj/W_EX010_C0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_C0/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_D0.mdlx
+  multi:
+  - name: obj/W_EX010_D0_NM.mdlx
+  - name: obj/W_EX010_D0_TR.mdlx
+  - name: obj/W_EX010_D0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_D0/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_E0.mdlx
+  multi:
+  - name: obj/W_EX010_E0_NM.mdlx
+  - name: obj/W_EX010_E0_TR.mdlx
+  - name: obj/W_EX010_E0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_E0/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_F0.mdlx
+  multi:
+  - name: obj/W_EX010_F0_NM.mdlx
+  - name: obj/W_EX010_F0_TR.mdlx
+  - name: obj/W_EX010_F0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_F0/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_G0.mdlx
+  multi:
+  - name: obj/W_EX010_G0_NM.mdlx
+  - name: obj/W_EX010_G0_TR.mdlx
+  - name: obj/W_EX010_G0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_G0/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_H0.mdlx
+  multi:
+  - name: obj/W_EX010_H0_NM.mdlx
+  - name: obj/W_EX010_H0_TR.mdlx
+  - name: obj/W_EX010_H0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_H0/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_J0.mdlx
+  multi:
+  - name: obj/W_EX010_J0_NM.mdlx
+  - name: obj/W_EX010_J0_TR.mdlx
+  - name: obj/W_EX010_J0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_J0/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_K0.mdlx
+  multi:
+  - name: obj/W_EX010_K0_NM.mdlx
+  - name: obj/W_EX010_K0_TR.mdlx
+  - name: obj/W_EX010_K0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_K0/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_M0.mdlx
+  multi:
+  - name: obj/W_EX010_M0_NM.mdlx
+  - name: obj/W_EX010_M0_TR.mdlx
+  - name: obj/W_EX010_M0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_M0/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_N0.mdlx
+  multi:
+  - name: obj/W_EX010_N0_NM.mdlx
+  - name: obj/W_EX010_N0_TR.mdlx
+  - name: obj/W_EX010_N0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_N0/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_P0.mdlx
+  multi:
+  - name: obj/W_EX010_P0_NM.mdlx
+  - name: obj/W_EX010_P0_TR.mdlx
+  - name: obj/W_EX010_P0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_P0/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_R0.mdlx
+  multi:
+  - name: obj/W_EX010_R0_NM.mdlx
+  - name: obj/W_EX010_R0_TR.mdlx
+  - name: obj/W_EX010_R0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_R0/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_X0.mdlx
+  multi:
+  - name: obj/W_EX010_X0_NM.mdlx
+  - name: obj/W_EX010_X0_TR.mdlx
+  - name: obj/W_EX010_X0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_X0/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_Y0.mdlx
+  multi:
+  - name: obj/W_EX010_Y0_NM.mdlx
+  - name: obj/W_EX010_Y0_TR.mdlx
+  - name: obj/W_EX010_Y0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_Y0/w_ex_0.coctmodel
+#
+- name: obj/W_EX010_Z0.mdlx
+  multi:
+  - name: obj/W_EX010_Z0_NM.mdlx
+  - name: obj/W_EX010_Z0_TR.mdlx
+  - name: obj/W_EX010_Z0_WI.mdlx
+  method: binarc
+  source:
+  - name: w_ex
+    type: modelcollision
+    method: copy
+    source:
+    - name: Collision/W_10_Z0/w_ex_0.coctmodel

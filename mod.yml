@@ -31,6 +31,10 @@ assets:
   method: copy
   source:
   - name: Texture/Proto.dds
+- name: remastered/itempic/item-043.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Proto_Sword.dds
 # Oathkeeper
 - name: obj/W_EX010_10.mdlx
   multi:
@@ -48,6 +52,10 @@ assets:
   method: copy
   source:
   - name: Texture/Honor.dds
+- name: remastered/itempic/item-044.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Honor_Blade.dds
 # Oblivion
 - name: obj/W_EX010_20.mdlx
   multi:
@@ -65,6 +73,10 @@ assets:
   method: copy
   source:
   - name: Texture/Shadow.dds
+- name: remastered/itempic/item-045.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Acheron.dds
 # Star Seeker
 - name: obj/W_EX010_30.mdlx
   multi:
@@ -82,6 +94,10 @@ assets:
   method: copy
   source:
   - name: Texture/Spur.dds
+- name: remastered/itempic/item-046.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Spur.dds
 # Hidden Dragon
 - name: obj/W_EX010_40.mdlx
   multi:
@@ -99,6 +115,10 @@ assets:
   method: copy
   source:
   - name: Texture/Saber.dds
+- name: remastered/itempic/item-047.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Red_Saber.dds
 # Heros Crest
 - name: obj/W_EX010_50.mdlx
   multi:
@@ -116,6 +136,10 @@ assets:
   method: copy
   source:
   - name: Texture/Calibur2.dds
+- name: remastered/itempic/item-048.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Tempered_Calibur.dds
 # Monochrome
 - name: obj/W_EX010_60.mdlx
   multi:
@@ -133,6 +157,10 @@ assets:
   method: copy
   source:
   - name: Texture/Wrench2.dds
+- name: remastered/itempic/item-049.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Robo_Wrecker.dds
 # Follow The Wind
 - name: obj/W_EX010_70.mdlx
   multi:
@@ -150,6 +178,10 @@ assets:
   method: copy
   source:
   - name: Texture/Flourish2.dds
+- name: remastered/itempic/item-050.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Grand_Flourish.dds
 # Circle Of Life
 - name: obj/W_EX010_80.mdlx
   multi:
@@ -167,6 +199,10 @@ assets:
   method: copy
   source:
   - name: Texture/Barb.dds
+- name: remastered/itempic/item-051.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Snarble_Barb.dds
 # Photon Debugger
 - name: obj/W_EX010_90.mdlx
   multi:
@@ -184,6 +220,10 @@ assets:
   method: copy
   source:
   - name: Texture/Protoshock.dds
+- name: remastered/itempic/item-052.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Static_Edge.dds
 # Gullwing
 - name: obj/W_EX010_A0.mdlx
   multi:
@@ -201,6 +241,10 @@ assets:
   method: copy
   source:
   - name: Texture/Brandish.dds
+- name: remastered/itempic/item-053.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Brandish.dds
 # Rumbling Rose
 - name: obj/W_EX010_B0.mdlx
   multi:
@@ -218,6 +262,10 @@ assets:
   method: copy
   source:
   - name: Texture/Venom2.dds
+- name: remastered/itempic/item-054.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Dread_Venom_Striker.dds
 # Guardian Soul
 - name: obj/W_EX010_C0.mdlx
   multi:
@@ -235,6 +283,10 @@ assets:
   method: copy
   source:
   - name: Texture/Cautery3.dds
+- name: remastered/itempic/item-055.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Amputator.dds
 # Wishing Lamp
 - name: obj/W_EX010_D0.mdlx
   multi:
@@ -252,6 +304,10 @@ assets:
   method: copy
   source:
   - name: Texture/FlourishStun.dds
+- name: remastered/itempic/item-056.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Fearless_Rigadoon.dds
 # Decisive Pumpkin
 - name: obj/W_EX010_E0.mdlx
   multi:
@@ -269,6 +325,10 @@ assets:
   method: copy
   source:
   - name: Texture/Barb3.dds
+- name: remastered/itempic/item-057.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Barbarous_Thorn_Blade.dds
 # Sleeping Lion
 - name: obj/W_EX010_F0.mdlx
   multi:
@@ -286,6 +346,10 @@ assets:
   method: copy
   source:
   - name: Texture/Leviathan.dds
+- name: remastered/itempic/item-058.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Leviathan_Blade.dds
 # Sweet Memories
 - name: obj/W_EX010_G0.mdlx
   multi:
@@ -303,6 +367,10 @@ assets:
   method: copy
   source:
   - name: Texture/Shovel.dds
+- name: remastered/itempic/item-059.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Slime_Slasher.dds
 # Mysterious Abyss
 - name: obj/W_EX010_H0.mdlx
   multi:
@@ -320,6 +388,10 @@ assets:
   method: copy
   source:
   - name: Texture/Ice2.dds
+- name: remastered/itempic/item-060.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Blizzbrand.dds
 # Fatal Crest
 - name: obj/W_EX010_J0.mdlx
   multi:
@@ -337,6 +409,10 @@ assets:
   method: copy
   source:
   - name: Texture/Vanquisher.dds
+- name: remastered/itempic/item-061.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Cold_Iron_Vanquisher.dds
 # Bond Of Flame
 - name: obj/W_EX010_K0.mdlx
   multi:
@@ -354,6 +430,10 @@ assets:
   method: copy
   source:
   - name: Texture/Fire3.dds
+- name: remastered/itempic/item-062.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Combuster.dds
 # Fenrir
 - name: obj/W_EX010_M0.mdlx
   multi:
@@ -371,6 +451,10 @@ assets:
   method: copy
   source:
   - name: Texture/TroikaF4.dds
+- name: remastered/itempic/item-063.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Triglav.dds
 # Ultima Weapon
 - name: obj/W_EX010_N0.mdlx
   multi:
@@ -388,6 +472,10 @@ assets:
   method: copy
   source:
   - name: Texture/Avenger.dds
+- name: remastered/itempic/item-064.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Divine_Avenger.dds
 # Two Become One
 - name: obj/W_EX010_P0.mdlx
   multi:
@@ -405,6 +493,10 @@ assets:
   method: copy
   source:
   - name: Texture/SealedF.dds
+- name: remastered/itempic/item-300.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Faust.dds
 # Winners Proof
 - name: obj/W_EX010_R0.mdlx
   multi:
@@ -422,6 +514,10 @@ assets:
   method: copy
   source:
   - name: Texture/Scissors.dds
+- name: remastered/itempic/item-301.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Scissor_Blades.dds
 # GoA Weapons
 # Kingdom Key D
 - name: obj/W_EX010_00.mdlx
@@ -440,6 +536,10 @@ assets:
   method: copy
   source:
   - name: Texture/Proto2.dds
+- name: remastered/itempic/item-299.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Bolted_Blade.dds
 # Pureblood
 - name: obj/W_EX010_X0.mdlx
   multi:
@@ -457,6 +557,10 @@ assets:
   method: copy
   source:
   - name: Texture/Cutlass.dds
+- name: remastered/itempic/item-296.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Dread_Captain_Cutlass.dds
 # Alpha Weapon
 - name: obj/W_EX010_Y0.mdlx
   multi:
@@ -474,6 +578,10 @@ assets:
   method: copy
   source:
   - name: Texture/TroikaF3.dds
+- name: remastered/itempic/item-297.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Jalovec.dds
 # Omega Weapon
 - name: obj/W_EX010_Z0.mdlx
   multi:
@@ -491,6 +599,10 @@ assets:
   method: copy
   source:
   - name: Texture/Faust.dds
+- name: remastered/itempic/item-298.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Gran_Faust.dds
 #Collision Fix
 - name: obj/W_EX010.mdlx
   multi:
